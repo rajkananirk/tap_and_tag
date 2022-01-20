@@ -1,0 +1,14 @@
+{
+"applinks": {
+"apps": [],
+"details": [
+{
+"appID": "com.tapandtag",
+"paths": [
+"NOT /_/*",
+"/*"
+]
+}
+]
+}
+}

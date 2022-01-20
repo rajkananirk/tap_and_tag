@@ -1,0 +1,194 @@
+/**
+*============================================================================================================================
+*                               STYLESHEET WRITTEN BY ZACTRA
+*============================================================================================================================
+*/
+*{
+       font-family: sans-serif;
+}
+
+.header-zactra{
+       width: 100%;
+       border-bottom:1px solid #e8e8e8;
+       padding-top:15px;
+       padding-bottom: 15px;
+}
+
+.row{
+       width: 100%;
+       display: flex;
+}
+.col3{
+       width: 33.333333%;
+}
+.col6{
+       width: 50%;
+}
+.col12{
+       width: 100%;
+}
+.text-right{
+       text-align: right
+}
+.text-center{
+       text-align: center
+}
+.text-left{
+       text-align: left
+}
+.site-title{
+       font-size:18px;
+       font-weight: bold;
+}
+.sidebar-icon-top{
+       margin-top:5px;
+}
+.p-r{
+       position: relative;
+}
+.profile-image{
+       margin-top: 20px;
+       width: 150px;
+       border-radius: 100%;
+       box-shadow: 0px 0px 30px #f3f3f3;
+}
+.profile-icon{
+       position: absolute;
+       width: 100px;
+       left: 0px;
+}
+.m-auto{
+       margin: auto;
+       width: 258px
+}
+.profile-secondary-section{
+       margin-top:10px;
+}
+.text-gray{
+       color:#b3b0b0;
+}
+.container{
+       width: 95%;
+       margin:auto;
+}
+.profile-btn{
+       /*       width: 80%;
+              height: 44px;
+              border: 1px solid black;
+              background: white;
+              border-radius: 13px;
+              font-size: 15px;
+              font-weight: bold;
+              box-shadow: 0px 0px 23px #dadada;
+              margin-top:10px;*/
+       width: 90%;
+       color: white;
+       border-radius: 15px;
+       border: none;
+       /*background-image: linear-gradient(#14b0db, #27eaa1);*/
+       background: linear-gradient(0deg, #27eaa1,#14b0db) ;
+       padding: 12px;
+       position: relative;
+       /*padding-right: 39px;*/
+}
+.profile-edit-down-message{
+       color: dimgray;
+       margin-top: 22px;
+}
+.social-div{
+       /*width: 114px;*/
+       /*height: 114px;*/
+       /*box-shadow: 0px 0px 15px #878686;*/
+       text-align: center;
+       /*border-radius: 100%;*/
+       margin: auto;
+}
+.social-div a img{
+       width: 114px;
+       height: 114px;
+       box-shadow: 0px 0px 10px grey;
+       border-radius: 100px;
+       margin-top:1px;
+}
+.margin-zactra{
+       margin-top:25px;
+}
+.bottom-zactra{
+       margin-bottom: 56px;
+}
+.container-footer{
+       width: 80%;
+       margin: auto;
+}
+.zactra-footer{
+       height: 46px;
+       position: fixed;
+       bottom: 0px;
+       padding-top: 13px;
+       width: 100%;
+       background: white;
+}
+.footer-center-btn{
+       padding: 13px 13px;
+       box-shadow: 0px 0px 10px #bfbfbf;
+       border-radius: 100%;
+       font-size: 19px;
+       font-weight: bold;
+}
+/**
+*============================================================================================================================
+*                               FEAUTURE IMAGE RAJ
+*============================================================================================================================
+*/
+
+.circular--portrait {
+       position: relative;
+       width: 150px;
+       height: 150px;
+       overflow: hidden;
+       border-radius: 50%;
+       margin-left: 50px;
+}
+
+.circular--portrait img {
+       width: 100%;
+       height: auto;
+}
+.header-area {
+       position: sticky;
+       top: 0;
+       z-index: 9999;
+}
+.TopBanner {
+       line-height: 46px;
+       height: 45px;
+       font-size: 16px;
+       background: #000;
+       text-align: center;
+       position: fixed;
+       font-weight: 600;
+       top: 0;
+       left: 0;
+       padding-top: 10px;
+       right: 0;
+       z-index: 999999999 !important;
+       padding: 5px;
+       color: #fff;
+}
+
+.sticky {
+       line-height: 44px;
+       height: 45px;
+       font-size: 16px;
+       background: #000;
+       text-align: center;
+       position: fixed;
+       font-weight: 600;
+       top: 0;
+       left: 0;
+       padding-top: 10px;
+       right: 0;
+       z-index: 999999999 !important;
+       padding: 5px;
+       color: #fff;
+}
